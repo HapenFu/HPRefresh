@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B42E6EB1DBDF5F000A0520A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B42E6EA1DBDF5F000A0520A /* main.m */; };
+		7B42E6EE1DBDF5F100A0520A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B42E6ED1DBDF5F100A0520A /* AppDelegate.m */; };
+		7B42E6F11DBDF5F100A0520A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B42E6F01DBDF5F100A0520A /* ViewController.m */; };
+		7B42E6F41DBDF5F100A0520A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B42E6F21DBDF5F100A0520A /* Main.storyboard */; };
+		7B42E6F61DBDF5F100A0520A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B42E6F51DBDF5F100A0520A /* Assets.xcassets */; };
+		7B42E6F91DBDF5F100A0520A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B42E6F71DBDF5F100A0520A /* LaunchScreen.storyboard */; };
+		7B42E7041DBDF5F100A0520A /* HPRefreshDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B42E7031DBDF5F100A0520A /* HPRefreshDemoTests.m */; };
+		7B42E70F1DBDF5F100A0520A /* HPRefreshDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B42E70E1DBDF5F100A0520A /* HPRefreshDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B42E7001DBDF5F100A0520A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B42E6DE1DBDF5F000A0520A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B42E6E51DBDF5F000A0520A;
+			remoteInfo = HPRefreshDemo;
+		};
+		7B42E70B1DBDF5F100A0520A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B42E6DE1DBDF5F000A0520A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B42E6E51DBDF5F000A0520A;
+			remoteInfo = HPRefreshDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B42E6E61DBDF5F000A0520A /* HPRefreshDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPRefreshDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B42E6EA1DBDF5F000A0520A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B42E6EC1DBDF5F100A0520A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B42E6ED1DBDF5F100A0520A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B42E6EF1DBDF5F100A0520A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7B42E6F01DBDF5F100A0520A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B42E6F31DBDF5F100A0520A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B42E6F51DBDF5F100A0520A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B42E6F81DBDF5F100A0520A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B42E6FA1DBDF5F100A0520A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B42E6FF1DBDF5F100A0520A /* HPRefreshDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPRefreshDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B42E7031DBDF5F100A0520A /* HPRefreshDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPRefreshDemoTests.m; sourceTree = "<group>"; };
+		7B42E7051DBDF5F100A0520A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B42E70A1DBDF5F100A0520A /* HPRefreshDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPRefreshDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B42E70E1DBDF5F100A0520A /* HPRefreshDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPRefreshDemoUITests.m; sourceTree = "<group>"; };
+		7B42E7101DBDF5F100A0520A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B42E6E31DBDF5F000A0520A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B42E6FC1DBDF5F100A0520A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B42E7071DBDF5F100A0520A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B42E6DD1DBDF5F000A0520A = {
+			isa = PBXGroup;
+			children = (
+				7B42E6E81DBDF5F000A0520A /* HPRefreshDemo */,
+				7B42E7021DBDF5F100A0520A /* HPRefreshDemoTests */,
+				7B42E70D1DBDF5F100A0520A /* HPRefreshDemoUITests */,
+				7B42E6E71DBDF5F000A0520A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B42E6E71DBDF5F000A0520A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B42E6E61DBDF5F000A0520A /* HPRefreshDemo.app */,
+				7B42E6FF1DBDF5F100A0520A /* HPRefreshDemoTests.xctest */,
+				7B42E70A1DBDF5F100A0520A /* HPRefreshDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B42E6E81DBDF5F000A0520A /* HPRefreshDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7B42E6EC1DBDF5F100A0520A /* AppDelegate.h */,
+				7B42E6ED1DBDF5F100A0520A /* AppDelegate.m */,
+				7B42E6EF1DBDF5F100A0520A /* ViewController.h */,
+				7B42E6F01DBDF5F100A0520A /* ViewController.m */,
+				7B42E6F21DBDF5F100A0520A /* Main.storyboard */,
+				7B42E6F51DBDF5F100A0520A /* Assets.xcassets */,
+				7B42E6F71DBDF5F100A0520A /* LaunchScreen.storyboard */,
+				7B42E6FA1DBDF5F100A0520A /* Info.plist */,
+				7B42E6E91DBDF5F000A0520A /* Supporting Files */,
+			);
+			path = HPRefreshDemo;
+			sourceTree = "<group>";
+		};
+		7B42E6E91DBDF5F000A0520A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B42E6EA1DBDF5F000A0520A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B42E7021DBDF5F100A0520A /* HPRefreshDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B42E7031DBDF5F100A0520A /* HPRefreshDemoTests.m */,
+				7B42E7051DBDF5F100A0520A /* Info.plist */,
+			);
+			path = HPRefreshDemoTests;
+			sourceTree = "<group>";
+		};
+		7B42E70D1DBDF5F100A0520A /* HPRefreshDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B42E70E1DBDF5F100A0520A /* HPRefreshDemoUITests.m */,
+				7B42E7101DBDF5F100A0520A /* Info.plist */,
+			);
+			path = HPRefreshDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B42E6E51DBDF5F000A0520A /* HPRefreshDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B42E7131DBDF5F100A0520A /* Build configuration list for PBXNativeTarget "HPRefreshDemo" */;
+			buildPhases = (
+				7B42E6E21DBDF5F000A0520A /* Sources */,
+				7B42E6E31DBDF5F000A0520A /* Frameworks */,
+				7B42E6E41DBDF5F000A0520A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPRefreshDemo;
+			productName = HPRefreshDemo;
+			productReference = 7B42E6E61DBDF5F000A0520A /* HPRefreshDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B42E6FE1DBDF5F100A0520A /* HPRefreshDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B42E7161DBDF5F100A0520A /* Build configuration list for PBXNativeTarget "HPRefreshDemoTests" */;
+			buildPhases = (
+				7B42E6FB1DBDF5F100A0520A /* Sources */,
+				7B42E6FC1DBDF5F100A0520A /* Frameworks */,
+				7B42E6FD1DBDF5F100A0520A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B42E7011DBDF5F100A0520A /* PBXTargetDependency */,
+			);
+			name = HPRefreshDemoTests;
+			productName = HPRefreshDemoTests;
+			productReference = 7B42E6FF1DBDF5F100A0520A /* HPRefreshDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B42E7091DBDF5F100A0520A /* HPRefreshDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B42E7191DBDF5F100A0520A /* Build configuration list for PBXNativeTarget "HPRefreshDemoUITests" */;
+			buildPhases = (
+				7B42E7061DBDF5F100A0520A /* Sources */,
+				7B42E7071DBDF5F100A0520A /* Frameworks */,
+				7B42E7081DBDF5F100A0520A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B42E70C1DBDF5F100A0520A /* PBXTargetDependency */,
+			);
+			name = HPRefreshDemoUITests;
+			productName = HPRefreshDemoUITests;
+			productReference = 7B42E70A1DBDF5F100A0520A /* HPRefreshDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B42E6DE1DBDF5F000A0520A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Haipeng;
+				TargetAttributes = {
+					7B42E6E51DBDF5F000A0520A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					7B42E6FE1DBDF5F100A0520A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B42E6E51DBDF5F000A0520A;
+					};
+					7B42E7091DBDF5F100A0520A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B42E6E51DBDF5F000A0520A;
+					};
+				};
+			};
+			buildConfigurationList = 7B42E6E11DBDF5F000A0520A /* Build configuration list for PBXProject "HPRefreshDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B42E6DD1DBDF5F000A0520A;
+			productRefGroup = 7B42E6E71DBDF5F000A0520A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B42E6E51DBDF5F000A0520A /* HPRefreshDemo */,
+				7B42E6FE1DBDF5F100A0520A /* HPRefreshDemoTests */,
+				7B42E7091DBDF5F100A0520A /* HPRefreshDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B42E6E41DBDF5F000A0520A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B42E6F91DBDF5F100A0520A /* LaunchScreen.storyboard in Resources */,
+				7B42E6F61DBDF5F100A0520A /* Assets.xcassets in Resources */,
+				7B42E6F41DBDF5F100A0520A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B42E6FD1DBDF5F100A0520A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B42E7081DBDF5F100A0520A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B42E6E21DBDF5F000A0520A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B42E6F11DBDF5F100A0520A /* ViewController.m in Sources */,
+				7B42E6EE1DBDF5F100A0520A /* AppDelegate.m in Sources */,
+				7B42E6EB1DBDF5F000A0520A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B42E6FB1DBDF5F100A0520A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B42E7041DBDF5F100A0520A /* HPRefreshDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B42E7061DBDF5F100A0520A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B42E70F1DBDF5F100A0520A /* HPRefreshDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B42E7011DBDF5F100A0520A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B42E6E51DBDF5F000A0520A /* HPRefreshDemo */;
+			targetProxy = 7B42E7001DBDF5F100A0520A /* PBXContainerItemProxy */;
+		};
+		7B42E70C1DBDF5F100A0520A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B42E6E51DBDF5F000A0520A /* HPRefreshDemo */;
+			targetProxy = 7B42E70B1DBDF5F100A0520A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B42E6F21DBDF5F100A0520A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B42E6F31DBDF5F100A0520A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B42E6F71DBDF5F100A0520A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B42E6F81DBDF5F100A0520A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B42E7111DBDF5F100A0520A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B42E7121DBDF5F100A0520A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B42E7141DBDF5F100A0520A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HPRefreshDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nengcheng.HPRefreshDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B42E7151DBDF5F100A0520A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HPRefreshDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nengcheng.HPRefreshDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7B42E7171DBDF5F100A0520A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HPRefreshDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nengcheng.HPRefreshDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPRefreshDemo.app/HPRefreshDemo";
+			};
+			name = Debug;
+		};
+		7B42E7181DBDF5F100A0520A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HPRefreshDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nengcheng.HPRefreshDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPRefreshDemo.app/HPRefreshDemo";
+			};
+			name = Release;
+		};
+		7B42E71A1DBDF5F100A0520A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HPRefreshDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nengcheng.HPRefreshDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HPRefreshDemo;
+			};
+			name = Debug;
+		};
+		7B42E71B1DBDF5F100A0520A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HPRefreshDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nengcheng.HPRefreshDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HPRefreshDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B42E6E11DBDF5F000A0520A /* Build configuration list for PBXProject "HPRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B42E7111DBDF5F100A0520A /* Debug */,
+				7B42E7121DBDF5F100A0520A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B42E7131DBDF5F100A0520A /* Build configuration list for PBXNativeTarget "HPRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B42E7141DBDF5F100A0520A /* Debug */,
+				7B42E7151DBDF5F100A0520A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B42E7161DBDF5F100A0520A /* Build configuration list for PBXNativeTarget "HPRefreshDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B42E7171DBDF5F100A0520A /* Debug */,
+				7B42E7181DBDF5F100A0520A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B42E7191DBDF5F100A0520A /* Build configuration list for PBXNativeTarget "HPRefreshDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B42E71A1DBDF5F100A0520A /* Debug */,
+				7B42E71B1DBDF5F100A0520A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B42E6DE1DBDF5F000A0520A /* Project object */;
+}
