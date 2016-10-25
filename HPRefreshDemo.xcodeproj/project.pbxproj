@@ -15,6 +15,10 @@
 		7B42E6F91DBDF5F100A0520A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B42E6F71DBDF5F100A0520A /* LaunchScreen.storyboard */; };
 		7B42E7041DBDF5F100A0520A /* HPRefreshDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B42E7031DBDF5F100A0520A /* HPRefreshDemoTests.m */; };
 		7B42E70F1DBDF5F100A0520A /* HPRefreshDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B42E70E1DBDF5F100A0520A /* HPRefreshDemoUITests.m */; };
+		7B42E7321DBEF47E00A0520A /* HPRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B42E72B1DBEF47E00A0520A /* HPRefreshHeader.m */; };
+		7B42E7331DBEF47E00A0520A /* UIColor+HPRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B42E72D1DBEF47E00A0520A /* UIColor+HPRefresh.m */; };
+		7B42E7341DBEF47E00A0520A /* UIScrollView+HPRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B42E72F1DBEF47E00A0520A /* UIScrollView+HPRefresh.m */; };
+		7B42E7351DBEF47E00A0520A /* UIView+HPRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B42E7311DBEF47E00A0520A /* UIView+HPRefresh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		7B42E70A1DBDF5F100A0520A /* HPRefreshDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPRefreshDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B42E70E1DBDF5F100A0520A /* HPRefreshDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPRefreshDemoUITests.m; sourceTree = "<group>"; };
 		7B42E7101DBDF5F100A0520A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B42E72A1DBEF47E00A0520A /* HPRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPRefreshHeader.h; sourceTree = "<group>"; };
+		7B42E72B1DBEF47E00A0520A /* HPRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPRefreshHeader.m; sourceTree = "<group>"; };
+		7B42E72C1DBEF47E00A0520A /* UIColor+HPRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HPRefresh.h"; sourceTree = "<group>"; };
+		7B42E72D1DBEF47E00A0520A /* UIColor+HPRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HPRefresh.m"; sourceTree = "<group>"; };
+		7B42E72E1DBEF47E00A0520A /* UIScrollView+HPRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HPRefresh.h"; sourceTree = "<group>"; };
+		7B42E72F1DBEF47E00A0520A /* UIScrollView+HPRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HPRefresh.m"; sourceTree = "<group>"; };
+		7B42E7301DBEF47E00A0520A /* UIView+HPRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HPRefresh.h"; sourceTree = "<group>"; };
+		7B42E7311DBEF47E00A0520A /* UIView+HPRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HPRefresh.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,7 @@
 		7B42E6E81DBDF5F000A0520A /* HPRefreshDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7B42E7291DBEF47E00A0520A /* HPRefresh */,
 				7B42E6EC1DBDF5F100A0520A /* AppDelegate.h */,
 				7B42E6ED1DBDF5F100A0520A /* AppDelegate.m */,
 				7B42E6EF1DBDF5F100A0520A /* ViewController.h */,
@@ -138,6 +151,21 @@
 				7B42E7101DBDF5F100A0520A /* Info.plist */,
 			);
 			path = HPRefreshDemoUITests;
+			sourceTree = "<group>";
+		};
+		7B42E7291DBEF47E00A0520A /* HPRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				7B42E72A1DBEF47E00A0520A /* HPRefreshHeader.h */,
+				7B42E72B1DBEF47E00A0520A /* HPRefreshHeader.m */,
+				7B42E72C1DBEF47E00A0520A /* UIColor+HPRefresh.h */,
+				7B42E72D1DBEF47E00A0520A /* UIColor+HPRefresh.m */,
+				7B42E72E1DBEF47E00A0520A /* UIScrollView+HPRefresh.h */,
+				7B42E72F1DBEF47E00A0520A /* UIScrollView+HPRefresh.m */,
+				7B42E7301DBEF47E00A0520A /* UIView+HPRefresh.h */,
+				7B42E7311DBEF47E00A0520A /* UIView+HPRefresh.m */,
+			);
+			path = HPRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B42E7321DBEF47E00A0520A /* HPRefreshHeader.m in Sources */,
 				7B42E6F11DBDF5F100A0520A /* ViewController.m in Sources */,
 				7B42E6EE1DBDF5F100A0520A /* AppDelegate.m in Sources */,
+				7B42E7341DBEF47E00A0520A /* UIScrollView+HPRefresh.m in Sources */,
+				7B42E7351DBEF47E00A0520A /* UIView+HPRefresh.m in Sources */,
 				7B42E6EB1DBDF5F000A0520A /* main.m in Sources */,
+				7B42E7331DBEF47E00A0520A /* UIColor+HPRefresh.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +539,7 @@
 				7B42E7151DBDF5F100A0520A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B42E7161DBDF5F100A0520A /* Build configuration list for PBXNativeTarget "HPRefreshDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +548,7 @@
 				7B42E7181DBDF5F100A0520A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B42E7191DBDF5F100A0520A /* Build configuration list for PBXNativeTarget "HPRefreshDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +557,7 @@
 				7B42E71B1DBDF5F100A0520A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
